@@ -1,0 +1,40 @@
+body {
+  user-select: none;
+  background: #f8f9fa;
+}
+
+input,
+textarea {
+  user-select: text;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.contact-card {
+  max-width: 850px;
+  margin: 0 auto;
+  border-radius: 14px;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.contact-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.contact-avatar {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.toast-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2000;
+}
